@@ -1,0 +1,65 @@
+@import url(reset.css);
+@keyframes opac{
+	20%{opacity: 1;}
+	100%{opacity:0;}
+}
+body{
+	background-color: lightgrey;
+	
+}
+
+div{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+}
+div:nth-child(1){
+	animation-name: opac;
+	animation-timing-function: ease-in-out;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(2){
+	animation-name: opac;
+	animation-delay: 1s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(3){
+	animation-name: opac;
+	animation-delay: 2s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(4){
+	animation-name: opac;
+	animation-delay: 3s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(5){
+	animation-name: opac;
+	animation-delay: 4s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(6){
+	animation-name: opac;
+	animation-delay: 5s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(7){
+	animation-name: opac;
+	animation-delay: 6s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+div:nth-child(8){
+	animation-name: opac;
+	animation-delay: 7s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
